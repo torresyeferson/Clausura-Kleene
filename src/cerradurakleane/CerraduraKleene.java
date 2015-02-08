@@ -12,14 +12,14 @@ import java.util.List;
  *
  * @author yef
  */
-public class CerraduraKleane {
+public class CerraduraKleene {
 
     /**
      * @param args the command line arguments
      */
     public List resultados;
     
-    public CerraduraKleane() {
+    public CerraduraKleene() {
         resultados= new ArrayList();
     }
     

@@ -76,11 +76,6 @@ public class Principal extends javax.swing.JFrame {
 
         jLabel3.setText("Ingrese el limite de la potencia");
 
-        listaresultados.setModel(new javax.swing.AbstractListModel() {
-            String[] strings = { "Item 1", "Item 2", "Item 3", "Item 4", "Item 5" };
-            public int getSize() { return strings.length; }
-            public Object getElementAt(int i) { return strings[i]; }
-        });
         resul.setViewportView(listaresultados);
 
         positiva.setText("Positiva");
@@ -159,7 +154,7 @@ public class Principal extends javax.swing.JFrame {
             if (!"".equals(valor)) {
                 try {
                     int a = Integer.parseInt(valor);
-                    CerraduraKleane c = new CerraduraKleane();
+                    CerraduraKleene c = new CerraduraKleene();
                     DefaultListModel modeloLista = new DefaultListModel();
                     listaresultados.setModel(modeloLista);
                     for (int i = 0; i <= a; i++) {
